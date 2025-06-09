@@ -70,7 +70,7 @@ public class EmailGeneratorService {
                             .path("content")
                             .path("parts")
                             .get(0)
-                            .path("test")
+                            .path("text")
                             .asText();
         } catch (Exception e) {
             return "Error Processing" +e.getMessage();
